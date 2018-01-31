@@ -1,0 +1,34 @@
+.text_list{
+    color: "JS(Color.black)";
+    font-size: "JS(Styles.FontSize.medium)";
+}
+.text_grid {
+    color: "JS(Color.black)";
+    font-size: "JS(Styles.FontSize.small)";
+},
+.price_wrapper {
+    align-items: center;
+}
+.sale_price {
+    text-decoration-line: line-through;
+    color: "JS(Color.blackTextDisable)";
+    margin-left: 0;
+    margin-right: 0;
+    font-size: "JS(Styles.FontSize.tiny)";
+},
+.price {
+    color: "JS(Color.black)";
+    font-size: "JS(Styles.FontSize.tiny)";
+}
+.saleWrap {
+    border-radius: 5;
+    background-color: "JS(Color.primary)";
+    justify-content: center;
+    align-items: center;
+    padding-horizontal: 3;
+    margin-left: 5;
+}
+.sale_off {
+    color: "JS(Color.lightTextPrimary)";
+    font-size: "JS(Styles.FontSize.small)";
+}

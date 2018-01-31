@@ -1,0 +1,12 @@
+.flatlist {
+    background-color: #fff;
+    padding-top: 8;
+    padding-bottom: 20;
+}
+
+.more {
+  width: "JS(width)";
+  align-items: center;
+  margin-bottom: 10;
+  margin-top: 10;
+}

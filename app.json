@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "foodspace",
+    "description": "whole foods app",
+    "version": "1.0.0",
+    "slug": "foodspace",
+    "icon": "./assets/icon.png",
+    "privacy": "public",
+    "sdkVersion": "24.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "android": {
+      "package": "com.foodspace.foodspace"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.button {
+  flex-direction: row;
+  background-color: #eee;
+  padding: 10;
+  padding-bottom: 8;
+  padding-left: 28;
+  padding-right: 28;
+  border-radius: 40;
+}
+.icon {
+  margin-top: 2;
+}
+.text {
+  margin-bottom: 2;
+  font-weight: 600;
+  color: #666;
+  font-size: 12;
+  font-family: "JS(Platform.OS != 'android' ? Constants.fontHeader :  Constants.fontHeaderAndroid)";
+}

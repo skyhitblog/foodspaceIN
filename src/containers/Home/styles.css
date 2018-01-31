@@ -1,0 +1,78 @@
+
+.container {
+    flex: 1;
+}
+
+.toolbarIcon {
+    width: 17;
+    height: 17;
+    resize-mode: contain;
+    margin: 12;
+    opacity: 0.8
+}
+
+.fill {
+    flex: 1;
+    background-color: #ffffff;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: "JS(Constants.Window.headerHeight)";
+}
+
+.logo {
+    width: "JS(vw * 30)";
+    resize-mode: contain;
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    width: "JS(null)";
+    height: "JS(Platform.OS === 'ios' ? Constants.Window.headerHeight : Constants.Window.headerHeight + 100)";
+    /*resize-mode: cover*/
+}
+
+.toolbar {
+    background-color: transparent;
+    margin-top: "JS(Platform.OS === 'ios' ? 12 : 28)";
+    height: 32;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 7;
+    right: 7;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.scrollViewContent {
+    margin-top: "JS(Constants.Window.headerHeight)";
+    position: relative;
+    margin-bottom: 100
+}
+
+
+
+.columnStyle {
+    justify-content: space-between;
+    margin: 10;
+}
+
+
+
+.more {
+    width: "JS(width)";
+    align-items: center;
+    margin-bottom: 10;
+    margin-top: 10
+}

@@ -1,0 +1,34 @@
+.wrap{
+  flex: 1;
+  background-color: 'rgba(255, 255, 255, 1)';
+}
+
+.head{
+  width: "JS(width / 2 - 40)";
+  padding-left: 15;
+  margin-left: 10;
+  margin-top: 10;
+    padding-right: 10;
+  border-bottom-width: 2;
+  border-style: solid;
+  border-color: "JS(Color.headerTintColor)";
+  background-color: 'rgba(255,255,255,1)';
+}
+
+.headTitle{
+  font-size: 16;
+  font-weight: 600;
+  color: rgba(51, 51, 51, 1);
+  line-height: 40;
+margin-bottom: 10;
+  font-family: "JS(Constants.fontHeader)";
+}
+
+.flatlist {
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 10;
+    padding-top: 8;
+    padding-bottom: 20;
+}
