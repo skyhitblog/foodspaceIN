@@ -1,6 +1,3 @@
-/**
- * Created by InspireUI on 27/02/2017.
- */
 import React, {Component} from 'react';
 import {View, Text, ScrollView, Image} from 'react-native';
 import {connect} from 'react-redux';

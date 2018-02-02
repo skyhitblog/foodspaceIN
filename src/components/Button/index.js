@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 17/02/2017.
- */
-
 import React from 'react';
 import {TouchableOpacity, Text, StyleSheet, View} from 'react-native';
 import {Styles, Color} from "@common";

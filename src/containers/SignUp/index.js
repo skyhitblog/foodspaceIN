@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 01/03/2017.
+ * Created on 01/03/2018.
  */
 import React, {Component} from 'react';
 import {View, Text, ScrollView, StyleSheet, TextInput, Switch, LayoutAnimation} from 'react-native';

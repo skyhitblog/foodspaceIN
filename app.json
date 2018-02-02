@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "foodspace",
-    "description": "whole foods app",
+    "name": "FoodSpace",
+    "description": "Whole Foods App",
     "version": "1.0.0",
     "slug": "foodspace",
     "icon": "./assets/icon.png",

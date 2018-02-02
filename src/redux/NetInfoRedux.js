@@ -1,6 +1,3 @@
-/**
- * Created by InspireUI on 14/02/2017.
- */
 const types = {
     UPDATE_CONNECTION_STATUS: 'UPDATE_CONNECTION_STATUS'
 };

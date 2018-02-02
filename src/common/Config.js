@@ -45,7 +45,7 @@ export default {
   shipping : {
     visible: true,
     time: {
-      free_shipping: '4 - 7 Days',
+      free_shipping: 'Minimum order of ₹250',
       flat_rate: '1 - 4 Days',
       local_pickup: '1 - 4 Days',
     }

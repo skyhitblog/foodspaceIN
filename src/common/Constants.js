@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 20/12/2016.
+ * Created on 20/12/2016.
  */
 
 import {Dimensions} from 'react-native';

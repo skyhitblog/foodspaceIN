@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 06/03/2017.
+ * Created on 06/03/2018.
  */
 import wp from '@services/PostAPI';
 import {Languages, Constants} from "@common"

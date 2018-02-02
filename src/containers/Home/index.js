@@ -1,7 +1,3 @@
-// @flow
-/**
- * Created by InspireUI on 19/02/2017.
- */
 import React, {Component} from 'react';
 import {View} from 'react-native'
 import {connect} from 'react-redux';

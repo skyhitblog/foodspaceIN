@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 10/21/2016.
+ * Created on 10/21/2016.
  */
 
 import WooWorker from './../../services/WooWorker'

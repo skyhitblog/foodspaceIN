@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 01/03/2017.
+ * Created on 01/03/2018.
  * An API for JSON API Auth Word Press plugin.
  * https://wordpress.org/plugins/json-api-auth/
  */

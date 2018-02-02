@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 28/02/2017.
- */
-
 import React from 'react';
 import {View, Text, StyleSheet, NetInfo} from 'react-native';
 import {connect} from 'react-redux';

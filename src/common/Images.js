@@ -1,6 +1,3 @@
-/**
- * Created by InspireUI on 17/02/2017.
- */
 const Images = {
   defaultAvatar: require('@images/default_avatar.png'),
   categoryPlaceholder: require('@images/category_placehodler.png'),

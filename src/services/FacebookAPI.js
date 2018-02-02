@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 05/01/2017.
+ * Created on 05/01/2018.
  */
 
 import {toast, log} from './../Omni';

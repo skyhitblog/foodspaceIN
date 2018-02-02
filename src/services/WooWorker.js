@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 22/02/2017.
- */
-
 import WooCommerceAPI from './WooCommerceAPI';
 import {Config, Constants, Styles} from "@common";
 import {error, warn, toast} from './../Omni';

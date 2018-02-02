@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 17/02/2017.
- */
-
 class BlockTimer {
     constructor() {
         this.lastRun = Date.now();

@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 28/02/2017.
- */
-
 import React from 'react';
 import {View, Text, StyleSheet, LayoutAnimation, TouchableOpacity} from 'react-native';
 import {connect} from 'react-redux';
@@ -88,5 +84,3 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(MyToast);
-
-

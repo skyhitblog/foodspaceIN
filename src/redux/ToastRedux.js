@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 14/02/2017.
- */
-
 const types = {
     ADD_TOAST: 'ADD_TOAST',
     REMOVE_TOAST: 'REMOVE_TOAST',

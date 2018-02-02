@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 27/02/2017.
- */
-
 import React from 'react';
 import {View, RefreshControl, StyleSheet, ListView, ScrollView, Platform, Animated} from 'react-native';
 import {connect} from 'react-redux';

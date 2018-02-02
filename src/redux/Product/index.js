@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 10/21/2016.
+ * Created on 10/21/2016.
  */
 import {
   TOGGLE_PRODUCT_VIEW_MODE,

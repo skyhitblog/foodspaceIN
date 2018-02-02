@@ -68,6 +68,10 @@ export default StyleSheet.create({
     color: Color.blackTextSecondary,
     marginTop: 20,
   },
+  reset: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   highlight: {
     fontWeight: 'bold',
     color: Color.primary

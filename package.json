@@ -1,8 +1,8 @@
 {
-  "name": "foodspace",
-  "version": "1.0",
-  "description": "whole foods app",
-  "author": "avi",
+  "name": "Foodspace",
+  "version": "1.0.0",
+  "description": "Whole Foods App",
+  "author": "Avi",
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "dependencies": {

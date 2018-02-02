@@ -1,6 +1,3 @@
-/**
- * Created by InspireUI on 18/02/2017.
- */
 'use strict';
 import React from 'react';
 import {Images} from '@common';

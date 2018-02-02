@@ -1,17 +1,14 @@
-/**
- * Created by InspireUI on 19/02/2017.
- */
 import React, {Component} from 'react';
 import PropTypes from 'prop-types'
 import {View, ScrollView, Text, StyleSheet, Image, TextInput, TouchableOpacity} from 'react-native';
 import {connect} from 'react-redux';
-
 import {Icons, Color, Languages, Styles, Config, Images} from "@common";
 import {Icon, toast, log, warn, FacebookAPI} from '@app/Omni';
 import {Spinner, Button, ButtonIndex} from '@components';
 import styles from './styles'
 import WooWorker from '@services/WooWorker';
 import WPUserAPI from '@services/WPUserAPI';
+import {Constants, WebBrowser} from 'expo';
 
 class LoginScreen extends Component {
   constructor(props) {
@@ -191,15 +188,28 @@ class LoginScreen extends Component {
             style={Styles.Common.ColumnCenter}
             onPress={this.onSignUpHandle}>
             <Text style={styles.signUp}>
-              Don't have an account? <Text style={styles.highlight}>Sign Up</Text>
-            </Text>
-          </TouchableOpacity>
-        </View>
+            Do not have an account? <Text style={styles.highlight}>Sign Up</Text>
+                        </Text>
+                        <Text> </Text>
+                        </TouchableOpacity>
 
-        {isLoading ? <Spinner mode={'overlay'}/> : null}
-      </ScrollView>
+                        <TouchableOpacity
+                        onPress={this._handleOpenWithWebBrowser} style={styles.reset}>
+                        <Text>
+                          Reset password.
+                        </Text>
+                        </TouchableOpacity>
+                    </View>
+
+                    {isLoading ? <Spinner mode={'overlay'}/> : null}
+                  </ScrollView>
     );
   }
+
+  _handleOpenWithWebBrowser = () => {
+    WebBrowser.openBrowserAsync('http://foodspace.in/account/lost-password/');
+  }
+
 }
 
 const commonInputProps = {

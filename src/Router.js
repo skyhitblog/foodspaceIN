@@ -1,6 +1,3 @@
-/**
- * Created by InspireUI on 19/02/2017.
- */
 import React from 'react';
 import {View, StatusBar, AsyncStorage} from 'react-native';
 import {toast, closeDrawer} from './Omni';

@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 22/12/2016.
+ * Created on 22/12/2016.
  */
 
 import React from 'react';

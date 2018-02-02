@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 17/02/2017.
- */
-
 import {Constants} from '@common';
 
 import _Icon from '@expo/vector-icons/MaterialCommunityIcons';

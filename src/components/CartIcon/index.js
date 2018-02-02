@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 07/03/2017.
+ * Created on 07/03/2018.
  */
 import React from 'react';
 import PropTypes from 'prop-types'

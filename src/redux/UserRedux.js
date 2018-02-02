@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 14/02/2017.
- */
-
 const types = {
   LOGOUT: 'LOGOUT',
   LOGIN: 'LOGIN_SUCCESS',

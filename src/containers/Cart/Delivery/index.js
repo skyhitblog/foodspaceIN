@@ -70,7 +70,7 @@ class Delivery extends Component {
       // state: Tcomb.String,
       // city: Tcomb.String,
       postcode: Tcomb.String,
-      // email: Email,
+      email: Email,
       phone: Phone,
       note: Tcomb.maybe(Tcomb.String) //maybe = optional
     })
@@ -132,12 +132,12 @@ class Delivery extends Component {
         //   },
         //   stylesheet: labelStyle
         // },
-        // email: {
-        //   label: Languages.Email,
-        //   placeholder: Languages.TypeEmail,
-        //   underlineColorAndroid: 'transparent',
-        //   stylesheet: labelStyle
-        // },
+        email: {
+          label: Languages.Email,
+          placeholder: Languages.TypeEmail,
+          underlineColorAndroid: 'transparent',
+          stylesheet: labelStyle
+        },
         phone: {
           label: Languages.Phone,
           placeholder: Languages.TypePhone,

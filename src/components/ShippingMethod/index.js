@@ -27,10 +27,10 @@ class ShippingMethod extends React.Component {
     const time = shippingTime[item.method_id];
 
     if (item.method_id === 'free_shipping') {
-      money = '$0';
+      money = '₹0';
       type = 'Free';
     } else {
-      money = "$" + costValue
+      money = "₹" + costValue
       type = item.title;
     }
 

@@ -1,7 +1,3 @@
-/**
- * Created by InspireUI on 23/02/2017.
- */
-
 import React, {Component} from 'react';
 import {Image, StyleSheet, Platform, UIManager} from 'react-native';
 import {NavigationActions} from 'react-navigation';

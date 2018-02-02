@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 13/06/2017.
+ * Created on 13/06/2018.
  */
 
 import WPAPI from "wpapi";

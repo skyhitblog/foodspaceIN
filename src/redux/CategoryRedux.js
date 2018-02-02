@@ -1,6 +1,3 @@
-/**
- * Created by InspireUI on 14/02/2017.
- */
 import WooWorker from '../services/WooWorker';
 import {warn} from "@app/Omni"
 

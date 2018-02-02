@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 21/12/2016.
+ * Created on 21/12/2016.
  */
 
 //Check out at 'http://ionicframework.com/docs/v2/ionicons/' for more icons

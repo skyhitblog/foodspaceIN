@@ -1,5 +1,5 @@
 /**
- * Created by InspireUI on 06/03/2017.
+ * Created on 06/03/2018.
  */
 import CountryWorker from '../services/CountryWorker';
 import {flatten} from 'lodash'
