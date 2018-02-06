@@ -18,7 +18,8 @@
       "assetExts": ["ttf", "mp4"]
     },
     "android": {
-      "package": "com.foodspace.foodspace"
+      "package": "com.foodspace.foodspace",
+      "versionCode": 2
     },
     "ios": {
       "supportsTablet": true
