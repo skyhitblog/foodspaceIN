@@ -2,7 +2,7 @@
   "expo": {
     "name": "FoodSpace",
     "description": "Whole Foods App",
-    "version": "1.0.0",
+    "version": "1.1",
     "slug": "foodspace",
     "icon": "./assets/icon.png",
     "privacy": "public",

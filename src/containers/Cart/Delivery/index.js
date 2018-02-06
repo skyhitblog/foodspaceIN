@@ -40,7 +40,7 @@ class Delivery extends Component {
         state: '',
         postcode: '',
         country: '',
-        email: '',
+        // email: '',
         phone: '',
         note: ''
       },
@@ -55,8 +55,8 @@ class Delivery extends Component {
     const countries = this.props.countries
     //override the validate method of Tcomb lib for multi validate requirement.
     const Countries = Tcomb.enums(countries)
-    const Email = Tcomb.refinement(Tcomb.String, s => Validator.checkEmail(s) === undefined)
-    Email.getValidationErrorMessage = (s) => Validator.checkEmail(s)
+    // const Email = Tcomb.refinement(Tcomb.String, s => Validator.checkEmail(s) === undefined)
+    // Email.getValidationErrorMessage = (s) => Validator.checkEmail(s)
     const Phone = Tcomb.refinement(Tcomb.String, s => Validator.checkPhone(s) === undefined)
     Phone.getValidationErrorMessage = (s) => Validator.checkPhone(s)
 
@@ -70,7 +70,7 @@ class Delivery extends Component {
       // state: Tcomb.String,
       // city: Tcomb.String,
       postcode: Tcomb.String,
-      email: Email,
+      // email: Email,
       phone: Phone,
       note: Tcomb.maybe(Tcomb.String) //maybe = optional
     })
@@ -132,12 +132,12 @@ class Delivery extends Component {
         //   },
         //   stylesheet: labelStyle
         // },
-        email: {
-          label: Languages.Email,
-          placeholder: Languages.TypeEmail,
-          underlineColorAndroid: 'transparent',
-          stylesheet: labelStyle
-        },
+        // email: {
+        //   label: Languages.Email,
+        //   placeholder: Languages.TypeEmail,
+        //   underlineColorAndroid: 'transparent',
+        //   stylesheet: labelStyle
+        // },
         phone: {
           label: Languages.Phone,
           placeholder: Languages.TypePhone,
@@ -170,12 +170,12 @@ class Delivery extends Component {
         value: {
           first_name: userInfo.first_name,
           last_name: userInfo.last_name,
-          email: userInfo.email,
+          // email: userInfo.email,
           address_1: userInfo.address_1,
-          city: userInfo.city,
-          state: userInfo.state,
+          // city: userInfo.city,
+          // state: userInfo.state,
           postcode: userInfo.postcode,
-          country: userInfo.country,
+          // country: userInfo.country,
           phone: userInfo.phone
         },
       })
@@ -185,12 +185,12 @@ class Delivery extends Component {
         value: {
           first_name: customer.billing.first_name == '' ? customer.first_name : customer.billing.first_name,
           last_name: customer.billing.last_name == '' ? customer.last_name : customer.billing.last_name,
-          email: customer.email.first_name == '' ? customer.email : customer.billing.email,
+          // email: customer.email.first_name == '' ? customer.email : customer.billing.email,
           address_1: customer.billing.address_1,
-          city: customer.billing.city,
-          state: customer.billing.state,
+          // city: customer.billing.city,
+          // state: customer.billing.state,
           postcode: customer.billing.postcode,
-          country: customer.billing.country,
+          // country: customer.billing.country,
           phone: customer.billing.phone
         },
       })
