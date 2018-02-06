@@ -1,8 +1,8 @@
 {
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerNgrokUrl": "https://bg-3pv.skyhitblogger.foodspace.exp.direct",
+  "packagerNgrokUrl": "https://packager.bg-3pv.skyhitblogger.foodspace.exp.direct",
+  "ngrokPid": 20660,
   "expoServerPort": 19000,
   "packagerPort": 19003,
-  "packagerPid": 19274
+  "packagerPid": 20644
 }
