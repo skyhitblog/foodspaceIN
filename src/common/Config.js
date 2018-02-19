@@ -2,18 +2,13 @@ import Images from "./Images"
 import Constants from './Constants'
 
 export default {
-  /**
-   Step 1: change to your website URL and the wooCommerce API consumeKey
-   */
+
    WooCommerce: {
      url: 'http://foodspace.in',
      consumerKey: 'ck_283abfef60bfa08a8767cab528938d979e6df215',
      consumerSecret: 'cs_c0dd399d6a073e04114037e5537fad178b854966',
    },
 
-  /**
-   Step 2: Setting Product Images
- */
   ProductSize: {
     enable: false,
     CatalogImages: {width: 300, height: 360},
@@ -24,9 +19,9 @@ export default {
   HorizonLayout: [
     {tag: 32, paging: true, layout: Constants.Layout.miniBanner},
     {name: "Featured", category: 39, image: Images.Banner.Feature, layout: Constants.Layout.threeColumn},
+    {name: "Rice", category: 41, image: Images.Banner.Woman, layout: Constants.Layout.twoColumn},
     {name: "Lentils", category: 40, image: Images.Banner.Bag, layout: Constants.Layout.twoColumn},
-    {name: "Rice", category: 41, image: Images.Banner.Woman, layout: Constants.Layout.twoColumnHigh},
-    {name: "Misc", category: 42, image: Images.Banner.Man, layout: Constants.Layout.card},
+    {name: "Flour", category: 42, image: Images.Banner.Man, layout: Constants.Layout.twoColumn},
   ],
 
   Payments: {
@@ -39,7 +34,7 @@ export default {
   shipping : {
     visible: true,
     time: {
-      free_shipping: 'Minimum order of ₹250',
+      free_shipping: 'Minimum order amount of ₹250',
       flat_rate: '1 - 4 Days',
       local_pickup: '1 - 4 Days',
     }

@@ -65,8 +65,8 @@ class Delivery extends Component {
     this.Customer = Tcomb.struct({
       first_name: Tcomb.String,
       last_name: Tcomb.String,
-      address_1: Tcomb.String,
       country: Countries,
+      address_1: Tcomb.String,
       // state: Tcomb.String,
       // city: Tcomb.String,
       postcode: Tcomb.String,

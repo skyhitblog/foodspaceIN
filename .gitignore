@@ -1,2 +1,4 @@
 .DS_Store
 node_modules/
+src/images/new_logo.png
+src/images/placeholderImage.png

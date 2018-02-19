@@ -1,7 +1,3 @@
-/**
- * Created on 20/12/2016.
- */
-
 import {Dimensions} from 'react-native';
 const {width, height} = Dimensions.get("window");
 
