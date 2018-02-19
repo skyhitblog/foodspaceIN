@@ -29,9 +29,6 @@ export default {
     {name: "Misc", category: 42, image: Images.Banner.Man, layout: Constants.Layout.card},
   ],
 
-  /**
-   step 3: Config image for the Payment Gateway
- **/
   Payments: {
     bacs: require('@images/payment_logo/PayPal.png'),
     cod: require('@images/payment_logo/cash_on_delivery.png'),
@@ -39,9 +36,6 @@ export default {
     stripe: require('@images/payment_logo/stripe.png'),
   },
 
-  /**
-   Step 4: Advance config:
-**/
   shipping : {
     visible: true,
     time: {

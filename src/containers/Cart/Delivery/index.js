@@ -66,7 +66,7 @@ class Delivery extends Component {
       first_name: Tcomb.String,
       last_name: Tcomb.String,
       address_1: Tcomb.String,
-      // country: Countries,
+      country: Countries,
       // state: Tcomb.String,
       // city: Tcomb.String,
       postcode: Tcomb.String,
@@ -122,16 +122,16 @@ class Delivery extends Component {
           underlineColorAndroid: 'transparent',
           stylesheet: labelStyle
         },
-        // country: {
-        //   label: Languages.TypeCountry,
-        //   nullOption: {value: '', text: Languages.Country},
-        //   error: Languages.NotSelectedError,
-        //   styles: {
-        //     borderColor: 'black',
-        //     borderWidth: 1,
-        //   },
-        //   stylesheet: labelStyle
-        // },
+        country: {
+          label: Languages.TypeCountry,
+          nullOption: {value: '', text: Languages.Country},
+          error: Languages.NotSelectedError,
+          styles: {
+            borderColor: 'black',
+            borderWidth: 1,
+          },
+          stylesheet: labelStyle
+        },
         // email: {
         //   label: Languages.Email,
         //   placeholder: Languages.TypeEmail,
@@ -175,7 +175,7 @@ class Delivery extends Component {
           // city: userInfo.city,
           // state: userInfo.state,
           postcode: userInfo.postcode,
-          // country: userInfo.country,
+          country: userInfo.country,
           phone: userInfo.phone
         },
       })
@@ -190,7 +190,7 @@ class Delivery extends Component {
           // city: customer.billing.city,
           // state: customer.billing.state,
           postcode: customer.billing.postcode,
-          // country: customer.billing.country,
+          country: customer.billing.country,
           phone: customer.billing.phone
         },
       })
