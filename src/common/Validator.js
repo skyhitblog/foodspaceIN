@@ -32,7 +32,10 @@ const phoneConstraints = {
         format: {
             pattern: '^[0-9]{9,12}$',
             flags: 'i',
-            message: 'Incorrect phone number'
+            message: 'Do not provide "+" or any spaces in between'
+        },
+        length: {
+            minimum: 10,
         }
     },
 }
@@ -113,4 +116,3 @@ const removeFirstWord = (result) => (result.substr(result.indexOf(' ') + 1))
 
 
 export default Validator
-

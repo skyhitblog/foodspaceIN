@@ -19,9 +19,11 @@
     },
     "android": {
       "package": "com.foodspace.foodspace",
-      "versionCode": 6
+      "versionCode": 7
     },
     "ios": {
+      "bundleIdentifier": "com.foodspace.app",
+      "buildNumber": "1",
       "supportsTablet": true
     }
   }
