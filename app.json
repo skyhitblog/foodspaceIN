@@ -19,7 +19,7 @@
     },
     "android": {
       "package": "com.foodspace.foodspace",
-      "versionCode": 7
+      "versionCode": 8
     },
     "ios": {
       "bundleIdentifier": "com.foodspace.app",

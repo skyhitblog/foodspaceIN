@@ -22,6 +22,7 @@ export default {
     {name: "Rice", category: 41, image: Images.Banner.Woman, layout: Constants.Layout.twoColumn},
     {name: "Lentils", category: 40, image: Images.Banner.Bag, layout: Constants.Layout.twoColumn},
     {name: "Flour", category: 42, image: Images.Banner.Man, layout: Constants.Layout.twoColumn},
+    {name: "Beans", category: 80, image: Images.Banner.Man, layout: Constants.Layout.twoColumn},
   ],
 
   Payments: {
